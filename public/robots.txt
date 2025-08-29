@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://neovision-ai.vercel.app/sitemap.xml
+
+# Optimisations pour les crawlers
+Crawl-delay: 1
+
+# Bloquer les ressources non importantes
+Disallow: /_next/static/
+Disallow: /api/
+Disallow: /*.json$
+
+# Permettre les images et CSS
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp
+
+# Instructions spécifiques pour les bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /

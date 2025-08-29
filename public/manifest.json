@@ -1,0 +1,46 @@
+{
+  "name": "NeoVision AI - Intelligence Artificielle",
+  "short_name": "NeoVision AI",
+  "description": "Plateforme d'IA révolutionnaire avec technologies immersives",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#06b6d4",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["productivity", "business", "technology"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Découvrir l'IA",
+      "short_name": "IA",
+      "description": "Explorer les capacités de NeoVision AI",
+      "url": "/#features",
+      "icons": [
+        {
+          "src": "/shortcut-ai.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

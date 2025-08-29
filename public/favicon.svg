@@ -1,0 +1,14 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="#000000" rx="6"/>
+  
+  <!-- N pour NeoVision -->
+  <path d="M8 8V24H10V12L22 24H24V8H22V20L10 8H8Z" fill="#06b6d4"/>
+  
+  <!-- Effet néon -->
+  <path d="M8 8V24H10V12L22 24H24V8H22V20L10 8H8Z" fill="#06b6d4" fill-opacity="0.3" stroke="#06b6d4" stroke-width="1"/>
+  
+  <!-- Points quantiques -->
+  <circle cx="26" cy="6" r="1.5" fill="#8b5cf6"/>
+  <circle cx="28" cy="10" r="1" fill="#06b6d4"/>
+  <circle cx="6" cy="26" r="1" fill="#8b5cf6"/>
+</svg>
