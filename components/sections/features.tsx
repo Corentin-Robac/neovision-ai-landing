@@ -1,26 +1,26 @@
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Brain, Zap, Shield, Sparkles } from "lucide-react"
+import { Sparkles, Bot, ClipboardList, Megaphone } from "lucide-react"
 
 const features = [
   {
-    icon: Brain,
-    title: "Analyse prédictive",
-    description: "Transformez vos données en décisions éclairées.",
-  },
-  {
-    icon: Zap,
-    title: "Automatisation rapide",
-    description: "Optimisez vos workflows grâce à l'IA.",
-  },
-  {
-    icon: Shield,
-    title: "Sécurité avancée",
-    description: "Protégez vos informations sensibles.",
-  },
-  {
     icon: Sparkles,
-    title: "Interface intuitive",
-    description: "Une expérience fluide et moderne.",
+    title: "Design & UX",
+    description: "Expériences élégantes et intuitives.",
+  },
+  {
+    icon: Bot,
+    title: "Développement & Automations",
+    description: "Des sites et workflows boostés à l’IA.",
+  },
+  {
+    icon: ClipboardList,
+    title: "Stratégie & gestion de projet",
+    description: "Vision produit, organisation, efficacité.",
+  },
+  {
+    icon: Megaphone,
+    title: "Communication & marketing",
+    description: "Du branding à la croissance organique.",
   },
 ]
 
@@ -29,7 +29,7 @@ export function Features() {
     <section className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">
-          Fonctionnalités clés
+          Compétences
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {features.map((feature, idx) => (
