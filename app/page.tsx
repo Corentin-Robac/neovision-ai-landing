@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import { Features } from '@/components/sections/features'
 import { ArrowRight, ArrowDown, Sparkles, Zap, Users, MessageSquare, Palette, Code, BarChart3, Megaphone, Brain, Target, Star, ExternalLink, Github, Linkedin, Mail, Calendar, ChevronRight } from 'lucide-react'
 
 export default function LandingPage() {
@@ -103,6 +104,8 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      <Features />
 
       {/* CTA Final */}
       <section className="py-20 px-4 bg-muted/30">
